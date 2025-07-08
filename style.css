@@ -61,3 +61,35 @@ h1 {
   border-radius: 999px;
   white-space: nowrap;
 }
+
+.tag {
+  font-size: 0.75em;
+  padding: 3px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.tag.pink {
+  background-color: #ff99c8;
+}
+
+.tag.purple {
+  background-color: #b28dff;
+}
+
+.tag.orange {
+  background-color: #ffb347;
+}
+
+.tag.green {
+  background-color: #77dd77;
+}
+
+.tag.blue {
+  background-color: #89c9ff;
+}
+
+.tag.red {
+  background-color: #ff6961;
+}
