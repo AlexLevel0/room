@@ -27,6 +27,7 @@ h1 {
   color: inherit;
   width: 200px;
   transition: transform 0.2s ease;
+  padding-bottom: 10px;
 }
 
 .gallery-item:hover {
@@ -40,6 +41,23 @@ h1 {
 }
 
 .gallery-item p {
-  margin: 10px;
+  margin: 10px 0 5px;
   font-size: 0.95em;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  padding: 0 10px;
+}
+
+.tag {
+  background-color: #ffc0cb;
+  color: #fff;
+  font-size: 0.75em;
+  padding: 3px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
 }
